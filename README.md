@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Memory Match Game
 
-## Getting Started
+A simple, fun, and interactive memory game built with **Next.js** and **TypeScript**. In this game, players test their memory skills by matching pairs of numbers in a grid of boxes. This project is designed to help players improve memory recall, as well as provide a clean and enjoyable UI for a satisfying user experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dynamic Grid Layout**: Adjustable grid size from 4x4 to 10x10, allowing for a customized challenge.
+- **Pair Matching**: Players click on boxes to reveal numbers, aiming to find matching pairs.
+- **Win Condition**: Once all pairs are matched, the game is won, and a success message is displayed.
+- **Responsive Design**: The game layout is optimized for both desktop and mobile screens.
+- **Built with Next.js & TypeScript**: This game leverages the power of Next.js for fast rendering and TypeScript for type safety.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/memory-match-game.git
+   cd memory-match-game
